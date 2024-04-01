@@ -21,8 +21,11 @@ class DetailViewController: UIViewController {
             summaryView.isEditable = false;
             summaryView.isScrollEnabled = true;
             summaryView.text = post.caption.trimHTMLTags()
-       
-       
+            
+            if let photo = post.photos.first {
+                let url = photo.originalSize.url
+                Nuke.loadImage(with: url, into: pictureView)
+            }
     }
         
        
