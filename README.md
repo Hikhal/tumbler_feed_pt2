@@ -1,4 +1,4 @@
-# Project 6 - *Tumblt*
+# Project 6 - *Tumblr*
 
 Submitted by: **Hamza Khaliq**
 
